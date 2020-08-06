@@ -58,7 +58,7 @@ handles.target = zeros(28,28);
 handles.output_text = [];
 % handles.result_out = 0;
 handles.work_mode = 0;
-han_re = load('tanh_7_2.mat');
+han_re = load('DNN_para.mat');
 han_im = load('Train.mat');
 handles.Weights = han_re.Weights;
 handles.Biases = han_re.Biases;
@@ -120,8 +120,7 @@ x_ope = zeros(784,1);
 for i = 1:28
     x_ope((i-1)*28+1:i*28,1) = handles.target(:,i);
 end
-x_ope = zscore(x_ope);
-handles.output_text = predict(handles.Weights,handles.Biases,x_ope');
+handles.output_text = predict(handles.Weights,handles.Biases,x_ope',2);
 set(handles.text2,'String',num2str(handles.output_text),...
                 'FontSize',12);
  [~,I] = max(handles.output_text);
