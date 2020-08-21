@@ -12,4 +12,8 @@ HW2：逻辑回归，根据美国统计局数据，预测某个人年收入是�
 
 HW3:DNN实现手写数字识别，B站同学，实现代码包含在HW3_DNN/user_define_DNN中，下载前述文件夹中文件后，在MATLAB中直接运行DNN.m即可。必须文件：Train_images.mat(包含MNIST图片)，AI.jpg(背景图)，myNeuralNetworkFunction_round2.m(识别函数，包含训练好的DNN网络参数)。
 
+HW3:CNN实现食物图像的分类。采用Keras搭建，8层卷积层，同时，BN层，Dropout层，3层全连接，Adam优化器，最后在Validation中的Acc达0.6。
+    待改进：残差网络Resnet
+    由于Kaggle上Competition已关闭，无法测试。
+ 
 ————————更新中————————
