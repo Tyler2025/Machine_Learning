@@ -2,7 +2,7 @@
 台湾大学李宏毅教授课程作业练习，各作业文件夹中已包含了数据集
   所有代码，都在MATLAB中实现，前期由于疫情在老家，电脑比较烂，用的Octave开发，但是大部分都与MATLAB兼容。
   MATLAB 版本：R2016a,若存在兼容性问题，请自行解决。  
-  联系方式：B站：Tyler_L,邮箱：1930417368@qq.com,个人博客：tylerleigh.live,欢迎交流
+  联系方式：B站：Tyler_L,邮箱：tyler@tylerleigh.live,欢迎交流
   github若下载慢，推荐加速网站https://g.widora.cn/
   觉得项目还不错的话，记得star,三连啊，亲！
 
